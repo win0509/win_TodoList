@@ -17,14 +17,19 @@
 /* 할 일 아이템 등록 시간을 감싼 박스에 스타일 적용 */
 .TodoItem .data_col{
     font-size: 14px;
-    color: gray;
+    font-weight: 500;
+    color: #2a5b89;
 }
 /* 삭제 버튼에 스타일 적용 */
 .TodoItem .btn_col button{
     cursor: pointer;
-    color: gray;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: .8rem;
     border: none;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px 20px 10px 20px;
+    background-color: #1f93ff;
+    color: white;
+    border-radius: 20px;
+    
 }

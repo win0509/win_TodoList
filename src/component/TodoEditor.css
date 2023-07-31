@@ -1,3 +1,9 @@
+.TodoEditor h4{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #2a5b89;
+    
+}
 .TodoEditor .editor_wrapper{
     width: 100%;
     display: flex;
@@ -7,12 +13,15 @@
     flex: 1;
     box-sizing: border-box;
     border: 1px solid rgb(220, 220, 220);
-    border-radius: 5px;
+    border-radius: 30px;
     padding: 15px;
 }
 .TodoEditor input:focus{
     outline: none;
     border: 1px solid #1f93ff;
+}
+.TodoEditor input::placeholder{
+    color: #afafaf;
 }
 .TodoEditor button{
     cursor: pointer;
@@ -20,5 +29,5 @@
     border: none;
     background-color: #1f93ff;
     color: white;
-    border-radius: 5px;
+    border-radius: 30px;
 }

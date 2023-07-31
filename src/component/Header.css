@@ -1,4 +1,15 @@
+.Header h3{
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-align: center;
+    color: #0069cb;
+}
 .Header h1{
     margin-bottom: 0px;
     color: #1f93ff;
+    text-align: center;
+    font-weight: 800;
+    /* font-family:'Fredoka', sans-serif;
+    font-style: normal;
+    font-weight: 700; */
 }
